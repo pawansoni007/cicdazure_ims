@@ -7,7 +7,7 @@ on:
     branches: [master]
 
 env:
-  AZURE_WEBAPP_NAME: your-webapp-name
+  AZURE_WEBAPP_NAME: prj1-devops-webapp-enezhjetg6hfbadf.centralindia-01
 
 jobs:
   build:
