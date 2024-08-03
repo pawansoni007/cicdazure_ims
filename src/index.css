@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.table-alignment {
+  margin-right: 45px;
+  margin-left: 45px;
+  border: 1px solid #c2c3c8;
+}
+
+.team-table-btn {
+  width: auto !important;
+}
+.package-container {
+  background-color: #08338f1a !important;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+  width: 90%;
+}
+
+.navbar {
+  padding-top: 0px !important;
+}
+
+.no-headline {
+  margin-left: 0rem !important;
+}
+
+.btn-mid {
+  width: 93% !important;
+}
+
+.text-loading {
+  color: #08338f;
+  font-style: italic;
+  font-size: smaller;
+}
+
+.link-nav {
+  text-decoration: none;
+  color: #08338f;
+}
+
+.nav-text {
+  font-size: 11px;
+  text-decoration: none;
+  font-weight: 100;
+  font-style: italic;
+}
+
+button:disabled.btn {
+  color: #fff;
+  opacity: 0.5;
+  background: #08338f;
+}
+
+.team-container{
+  width: 94%;
+}
+.containerDiv{
+  display: flex;
+  height: fit-content;
+
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+ 
+  width: 100%;
+  justify-content: flex-end;
+}
+.iconBut{
+  border: 1px solid black;
+  border-radius: 50%;
+
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+.inp{
+  width: 100%;
+  height: 100%;
+  padding: 0;margin: 0;
+  border: none;
+}
+.inp:focus{
+  border:none;
+  outline: none;
+}
+.react-grid-HeaderCell{
+  color: white;
+  background-color: #082e81 !important;
+  text-align: center;
+}
+.custom-tooltip {
+  background-color: transparent; /* Remove default background */
+  color: transparent; /* Remove default text color */
+  border: none; /* Remove default border */
+}
+
+.custom-tooltip-content {
+  
+  color: white;
+  padding: 8px; /* Adjust padding to your preference */
+  border-radius: 4px; /* Add border-radius for rounded corners */
+   /* Add a border for the tooltip box */
+}

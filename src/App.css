@@ -1,0 +1,400 @@
+.App {
+  text-align: center;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#main {
+  margin: auto;
+  width: auto;
+}
+.space {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  margin-top: 7%;
+}
+
+.form-group {
+  text-align: center;
+  display: block;
+  width: 700px;
+  height: 350px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+
+  border: 2px solid #ded5d5;
+  border-radius: 4px;
+  margin-bottom: 20px;
+
+  background-color: lightgray;
+}
+
+table.package {
+  margin: auto;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #fff;
+  border-style: hidden;
+}
+
+table.package caption {
+  background-color: #f79646;
+  color: #fff;
+  font-size: x-large;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  padding: 20px;
+}
+
+table.package thead th {
+  padding: 5px;
+  background-color: #fde9d9;
+  font-size: large;
+}
+
+table.package thead th#pack_id {
+  width: 20%;
+}
+.space {
+  padding-left: auto;
+}
+
+table.package thead th#track_id {
+  width: 20%;
+}
+table.package thead th#date_id {
+  width: 20%;
+}
+table.package thead th#sender_id {
+  width: 20%;
+}
+table.package thead th#reciever_id {
+  width: 20%;
+}
+table.package th,
+table.package td {
+  padding: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f79646 #ccc;
+}
+
+table.package td {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  display: block;
+  margin-top: 0%;
+  padding: 0.5rem;
+  background-color: #555555;
+  color: #f0f8ff;
+  font-size: 32px;
+  margin: 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.IContainer {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.innercontainer {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #08338f1a;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.anotherContainerTeamFix {
+  width: 58%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #08338f1a;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  width: 300px;
+  background-color: #08338f;
+  color: aliceblue;
+  padding: 10px 24px;
+  font-weight: 700;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+
+.team-add {
+  display: block;
+  margin-top: 0em;
+}
+.categories-space {
+  margin: 6px;
+}
+.btn-team-edit {
+  text-decoration: none;
+  color: #08338f;
+  padding: 1px;
+  border: 1px solid #08338f;
+  padding: 6px 21px;
+  border-radius: 4px;
+}
+.btn-no-border {
+  text-decoration: underline;
+  color: #08338f;
+  padding: 1px;
+  padding: 6px 21px;
+  border-radius: 4px;
+}
+.btn-team-edit:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #08338f;
+  border: 1px solid #08338f;
+}
+
+.headline {
+  justify-content: left;
+  display: flex;
+  margin-left: 2rem;
+  color: #08338f;
+}
+.headline2 {
+  justify-content: left;
+  display: flex;
+
+  color: #08338f;
+}
+.search-input {
+  width: 27.4%;
+}
+
+.export-btn {
+  margin-right: 9px;
+}
+
+.export-btn-div {
+  display: "flex";
+  justify-content: "Right";
+  padding: "1.5rem";
+}
+
+.import-button {
+  float: right;
+  margin-right: 70px;
+  margin-top: 25px;
+}
+
+.col-35 {
+  float: left;
+  width: 35%;
+  margin-top: 6px;
+}
+.col-25{
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-17{
+  float: left;
+  width: 17%;
+  margin-top: 6px;
+}
+.col-75{
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.col-65 {
+  float: left;
+  width: 65%;
+  margin-top: 6px;
+}
+
+.login-form {
+  width: auto;
+  background: #08338f1a;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.login-headline {
+  justify-content: center;
+  display: flex;
+  margin: 1rem;
+  color: #08338f !important;
+}
+
+.compulsory {
+  color: red;
+}
+
+.login-text{
+  font-size: smaller;
+}
+
+hr {
+  padding: 0;
+  border: none;
+  color: #333;
+  text-align: center;    
+  font-size:12px;
+}
+.text-center hr:after {
+  content:"or";
+  display: inline-block;
+  position: relative; 
+  top: -0.7em;  
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+
+/* import excel css */
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.upload-container {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+}
+
+.dropzone {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-upload{
+ width: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    height: 35px;
+}
+.upload-fn{
+  display: flex;
+  justify-content: center;
+}
+.upload-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.selected-file-text {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+
+
+.lefthoverinfo{
+  display: none;
+  position: absolute;
+  background-color: #00000054;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+  margin-left: -440px;
+  top: 35%;
+  margin-right: 1095px;
+}
+
+.btn-home:hover + .lefthoverinfo{
+  display: block;
+}
+
+.righthoverinfo{
+  display: none;
+  position: absolute;
+  background-color: #00000054;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+  margin-left: 310px;
+  top: 35%;
+  margin-right: 10px;
+}
+
+.btn-home:hover + .righthoverinfo{
+  display: block;
+}
+
+
+
+.downhoverinfo{
+  display: none;
+  position: absolute;
+  background-color: #00000054;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+  margin-left: 310px;
+  top: 65%;
+  margin-right: 10px;
+}
+
+.btn-home:hover + .downhoverinfo{
+  display: block;
+}
+
