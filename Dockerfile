@@ -9,4 +9,14 @@ COPY . .
 
 RUN npm run build 
 
-CMD ["npm", "start"]
+# Build the app
+RUN npm run build
+
+# Install serve to run the application
+RUN npm install -g serve
+
+# Set the startup command
+CMD serve -s build -l 8080
+
+# Expose port 8080
+EXPOSE 8080
