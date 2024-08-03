@@ -7,7 +7,7 @@ on:
     branches: [master]
 
 env:
-  AZURE_WEBAPP_NAME: prj1-devops-webapp-enezhjetg6hfbadf.centralindia-01
+  AZURE_WEBAPP_NAME: prj1-devops-webapp
 
 jobs:
   build:
@@ -37,5 +37,5 @@ jobs:
         with: 
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          images: '${{ secrets.DOCKER_USERNAME }}/hello-devops:${{ github.sha }}'
+          images: '${{ secrets.DOCKER_USERNAME }}/imsmgmtsystem:${{ github.sha }}'
 
